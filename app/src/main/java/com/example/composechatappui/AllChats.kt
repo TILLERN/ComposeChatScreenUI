@@ -4,9 +4,9 @@ import androidx.compose.foundation.Image
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.MaterialTheme
-import androidx.compose.material.Surface
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
@@ -18,12 +18,21 @@ import com.example.composechatappui.ui.theme.ComposeChatAppUITheme
 @Composable
 fun AllChats(){
     ComposeChatAppUITheme{
-        MessageCard()
+        Conversation()
+    }
+}
+@Composable
+fun Conversation(){
+    LazyColumn(){
+        this.items(ChatRepository.messages){
+                message ->
+            MessageCard(message)
+        }
     }
 }
 
 @Composable
-fun MessageCard(){
+fun MessageCard(msg:Message){
     androidx.compose.material.Surface(
         shape = MaterialTheme.shapes.medium,
         color = MaterialTheme.colors.surface,
@@ -44,13 +53,13 @@ fun MessageCard(){
 
             Column(modifier = Modifier.padding(all = 5.dp)) {
                 Text(
-                    text = "Chat Name",
+                    text = msg.name,
                     color = MaterialTheme.colors.secondary,
                     style = MaterialTheme.typography.subtitle2,
                 )
                 Spacer(modifier = Modifier.height(8.dp))
                 Text(
-                    text = "Hey this is my message to you uuuu!",
+                    text = msg.body,
                     color = MaterialTheme.colors.primary,
                     style = MaterialTheme.typography.body2,
                 )

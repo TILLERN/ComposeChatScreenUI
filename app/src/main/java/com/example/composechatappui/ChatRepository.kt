@@ -1,51 +1,51 @@
 package com.example.composechatappui
 
-class ChatRepository {
+object ChatRepository {
     val messages = listOf(
         Message(
-            "Tillern Composer", "Cloud Apex Meeting", "Hello Tillern, this is a reminder that there will be a cloud apex meeting tomorrow 2pm at Ngoingwa. Please purpose to attend."
+            "Tillern Composer", "Hello Tillern, this is a reminder that there will be a cloud apex meeting tomorrow 2pm at Ngoingwa. Please purpose to attend."
         ) ,
         Message(
-            "Vue Guru", "Cloud Apex Meeting", "Hello Tillern, this is a reminder that there will be a cloud apex meeting tomorrow 2pm at Ngoingwa. Please purpose to attend."
+            "Vue Guru", "This is a reminder that there will be a cloud apex meeting tomorrow 2pm at Ngoingwa. Please purpose to attend."
         ),
         Message(
-            "Node Enthusiast", "Cloud Apex Meeting", "Hello Tillern, this is a reminder that there will be a cloud apex meeting tomorrow 2pm at Ngoingwa. Please purpose to attend."
+            "Node Enthusiast", "Hello, this is a reminder that there will be a cloud apex meeting tomorrow 2pm at Ngoingwa. Please purpose to attend."
         ),
         Message(
-            "Kotlin Dev", "Cloud Apex Meeting", "Hello Tillern, this is a reminder that there will be a cloud apex meeting tomorrow 2pm at Ngoingwa. Please purpose to attend."
+            "Kotlin Dev", "Cloud Apex Meeting, this is a reminder that there will be a cloud apex meeting tomorrow 2pm at Ngoingwa. Please purpose to attend."
         ),
         Message(
-            "Angular Avenger", "Cloud Apex Meeting", "Hello Tillern, this is a reminder that there will be a cloud apex meeting tomorrow 2pm at Ngoingwa. Please purpose to attend."
+            "Angular Avenger", "Tillern, this is a reminder that there will be a cloud apex meeting tomorrow 2pm at Ngoingwa. Please purpose to attend."
         ),
         Message(
-            "Java Dev", "Cloud Apex Meeting", "Hello Tillern, this is a reminder that there will be a cloud apex meeting tomorrow 2pm at Ngoingwa. Please purpose to attend."
+            "Java Dev", "Cloud Tillern, this is a reminder that there will be a cloud apex meeting tomorrow 2pm at Ngoingwa. Please purpose to attend."
         ) ,
         Message(
-            "Flutter UIs", "Cloud Apex Meeting", "Hello Tillern, this is a reminder that there will be a cloud apex meeting tomorrow 2pm at Ngoingwa. Please purpose to attend."
+            "Flutter UIs", "Tillern, this is a reminder that there will be a cloud apex meeting tomorrow 2pm at Ngoingwa. Please purpose to attend."
         ),
         Message(
-            "Jane Doe", "Cloud Apex Meeting", "Hello Tillern, this is a reminder that there will be a cloud apex meeting tomorrow 2pm at Ngoingwa. Please purpose to attend."
+            "Jane Doe", "A reminder that there will be a cloud apex meeting tomorrow 2pm at Ngoingwa. Please purpose to attend."
         ),
         Message(
-            "Garry Clay", "Cloud Apex Meeting", "Hello Tillern, this is a reminder that there will be a cloud apex meeting tomorrow 2pm at Ngoingwa. Please purpose to attend."
+            "Garry Clay", "Tillern, this is a reminder that there will be a cloud apex meeting tomorrow 2pm at Ngoingwa. Please purpose to attend."
         ),
         Message(
-            "Mark Craigyl", "Cloud Apex Meeting", "Hello Tillern, this is a reminder that there will be a cloud apex meeting tomorrow 2pm at Ngoingwa. Please purpose to attend."
+            "Mark Craigyl", "Cloud Meeting, this is a reminder that there will be a cloud apex meeting tomorrow 2pm at Ngoingwa. Please purpose to attend."
         ),
         Message(
-            "Tillern Tee", "Cloud Apex Meeting", "Hello Tillern, this is a reminder that there will be a cloud apex meeting tomorrow 2pm at Ngoingwa. Please purpose to attend."
+            "Tillern Tee", "Cloud Apex Meeting: Hello Tillern, this is a reminder that there will be a cloud apex meeting tomorrow 2pm at Ngoingwa. Please purpose to attend."
         ) ,
         Message(
-            "John Doe", "Cloud Apex Meeting", "Hello Tillern, this is a reminder that there will be a cloud apex meeting tomorrow 2pm at Ngoingwa. Please purpose to attend."
+            "John Doe", "Meeting will be a cloud apex meeting tomorrow 2pm at Ngoingwa. Please purpose to attend."
         ),
         Message(
-            "Austin Lameck", "Cloud Apex Meeting", "Hello Tillern, this is a reminder that there will be a cloud apex meeting tomorrow 2pm at Ngoingwa. Please purpose to attend."
+            "Austin Lameck", "Hello , there will be a cloud apex meeting tomorrow 2pm at Ngoingwa. Please purpose to attend."
         ),
         Message(
-            "Bobby Trapper", "Cloud Apex Meeting", "Hello Tillern, this is a reminder that there will be a cloud apex meeting tomorrow 2pm at Ngoingwa. Please purpose to attend."
+            "Bobby Trapper", "Cloud apex meeting tomorrow 2pm at Ngoingwa. Please purpose to attend."
         ),
         Message(
-            "Abraham Shayaa", "Cloud Apex Meeting", "Hello Tillern, this is a reminder that there will be a cloud apex meeting tomorrow 2pm at Ngoingwa. Please purpose to attend."
+            "Abraham Shayaa", "There will be a cloud apex meeting tomorrow 2pm at Ngoingwa. Please purpose to attend."
         ),
     )
 }
